@@ -87,7 +87,7 @@ export default function Home() {
             <Link to="/contact" className="px-5 py-3 rounded-2xl bg-black text-white font-semibold">
               Get a quote
             </Link>
-            <a href="tel:12135662524" className="px-5 py-3 rounded-2xl border font-semibold">
+            <a href="tel:5108386545" className="px-5 py-3 rounded-2xl border font-semibold">
               Call now
             </a>
           </div>
