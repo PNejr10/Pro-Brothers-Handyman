@@ -3,10 +3,10 @@ import Button from "../components/Button";
 export default function Contact() {
   const [status, setStatus] = useState({ type: "idle", msg: "" });
 
-  function onSubmit(e) {
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus({ type: "ok", msg: "Form submitted (demo). Next: connect Formspree/Getform or your backend." });
-    e.target.reset();
+    (e.target as HTMLFormElement).reset();
   }
 
   return (
